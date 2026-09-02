@@ -11,7 +11,7 @@ body{font-family:Arial;margin:0;background:#f5f7f2;color:#222}header{background:
 <div id="adminModal" class="modal"><div class="box"><button onclick="closeAdmin()">✕</button><h2>🔔 Admin Order Panel</h2><div class="notify">New customer orders will appear here. Click <b>Allow notifications</b> to enable browser alerts.</div><button class="add" onclick="enableNotifications()">🔔 Allow notifications</button> <button onclick="clearOrders()">Clear Demo Orders</button><hr><div id="orders"></div></div></div>
 <footer>© 2026 Chatpata Cart</footer>
 <script>
-const ONLINE_API_URL = ""; // Paste your Google Apps Script Web App URL here
+const ONLINE_API_URL = "const ONLINE_API_URL = "https://script.google.com/macros/s/AKfycbwnrBgeC8ZiytDiLsTRfAQpqVnboN7srhLQTGafQNWADFK_AZygcZvI4EEVlRaL6pFR/exec";
 
 const P=[[1,'Atta',45,'Grocery','🌾'],[2,'Maida',40,'Grocery','🥣'],[3,'Suji',50,'Grocery','🌾'],[4,'Besan',70,'Grocery','🫘'],[5,'Chini',48,'Grocery','🍚'],[6,'Chawal',65,'Grocery','🍚'],[7,'Dal',90,'Grocery','🫘'],[8,'Namak',25,'Grocery','🧂'],[9,'Pani Puri',30,'Pani Puri','🥟'],[10,'Pani Puri Masala',55,'Masala','🌶️'],[11,'Imli Chutney',60,'Masala','🥭'],[12,'Pudina Masala',45,'Masala','🌿'],[13,'Dona',35,'Packaging','🥣'],[14,'Spoon',25,'Packaging','🥄'],[15,'Paper Plate',50,'Packaging','🍽️']];
 let cart=[],cat='All';
